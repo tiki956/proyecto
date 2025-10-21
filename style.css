@@ -1,0 +1,108 @@
+/* =============================================================
+   Archivo: style.css
+   Propósito: Estilos visuales mejorados (Elegante y Dinámico)
+   ============================================================= */
+
+body {
+    background-color: #f8f9fa; /* Gris muy claro, limpio y profesional */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 950px; /* Un poco más ancho */
+}
+
+/* Título principal con un toque suave */
+h2.text-primary {
+    color: #007bff !important; /* Azul más vibrante */
+    font-weight: 700;
+    margin-bottom: 40px !important;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(0, 123, 255, 0.1); /* Línea de división sutil */
+}
+
+/* Estilos de las secciones (fieldset) */
+fieldset {
+    border: none !important; /* Quitamos el borde clásico del fieldset */
+    padding: 30px !important;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 12px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra suave y elegante */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+fieldset:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12); /* Sombra más pronunciada al pasar el ratón */
+}
+
+/* Estilo de las leyendas (títulos de sección) */
+legend {
+    width: auto;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+legend.text-primary {
+    color: #007bff !important; /* Azul primario */
+}
+
+legend.text-success {
+    color: #28a745 !important; /* Verde éxito */
+}
+
+/* Estilo de los campos de formulario */
+.form-control, .form-select {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Estilo del botón de registro principal */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1.3rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+    transition: all 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+    border-color: #1c7430;
+    transform: translateY(-2px); /* Efecto dinámico al pasar el ratón */
+    box-shadow: 0 6px 10px rgba(40, 167, 69, 0.4);
+}
+
+/* Estilo del Listado de Pacientes (Más prominente) */
+h3.text-secondary {
+    color: #6c757d !important;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.table-responsive-list {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+    margin-bottom: 0; /* Elimina margen inferior de la tabla */
+}
+
+.table thead {
+    background-color: #e9ecef; /* Cabecera de tabla más limpia */
+    color: #343a40;
+}
